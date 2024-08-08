@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: black;
+}
+
+header {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+
+
+footer {
+  background-color: #1f2039;
+  padding: 20px 50px;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  width: 141px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone {
+  margin-left: 30px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+section {
+  padding: 80px;
+}
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+.icon {
+  display: none;
+}
+
+.navmobile {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: linear-gradient(#696484, #8788ba);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileLink {
+  color: white;
+  margin-top: 2rem;
+  font-size: x-large;
+}
+
+nav img, footer a img {
+  width: 75px;
+  height: 50px;
+}
+
+
+.reseau {
+  width: 50px;
+}
+
+.photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.photo-hover p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 14px;
+
+}
+.photo-hover h4 {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  
+}
+
+@media screen and (max-width:996px){
+  h1 {
+  font-size: 2em;
+  }
+
+}
+
+@media screen and (max-width:500px){
+
+  .link {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  section {
+    padding: 30px;
+  }
+}
